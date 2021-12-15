@@ -2,7 +2,7 @@
   "name": "goit-js-hw-09",
   "version": "1.0.0",
   "description": "",
-  "main": "01-color-switcher.js",
+  
   "homepage": "https://VVViktorVVV.github.io/goit-js-hw-09",
   "scripts": {
     "dev": "parcel src/*.html",
