@@ -2,7 +2,7 @@
   "name": "goit-js-hw-09",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.html",
+  "main": "index.js",
   "homepage": "https://VVViktorVVV.github.io/goit-js-hw-09",
   "scripts": {
     "dev": "parcel src/*.html",
