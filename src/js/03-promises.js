@@ -10,7 +10,6 @@ let amounEL = document.querySelector('[name="amount"]')
 form.addEventListener('submit', e => { e.preventDefault(); });
 
 let delayCount = 0;
-let step = 0;
 let amount = 0;
 let countResult = 0
 
@@ -36,11 +35,17 @@ function onSubmit() {
   countResult = setInterval(() => {
     
     amount += 1;
-    delayCount += +stepDelayEl.value;
+    
     
     if (amount === 1) {
       delayCount += +firstDelayEl.value;
     }
+
+    if (amount > 1) {
+      delayCount += +stepDelayEl.value;
+    }
+
+    
 
      if (amount === +amounEL.value) {
       clearInterval(countResult);
